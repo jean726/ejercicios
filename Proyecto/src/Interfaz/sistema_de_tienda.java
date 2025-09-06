@@ -129,6 +129,7 @@ public class sistema_de_tienda extends JFrame implements ActionListener {
 	        txtnom.setText("");
 	        txtprecio.setText("");
 	        txtstock.setText("");
+	        //precio
 		}
 		catch(NumberFormatException ex) {
 			JOptionPane.showMessageDialog(this, "El precio y stock deben ser númmeros validos");
